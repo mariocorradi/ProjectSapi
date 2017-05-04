@@ -1,0 +1,8 @@
+REM Aritmetica booleana avanzata
+REM ----------------------------
+
+$a = TRUE
+$b = NOT $a
+$c = FALSE
+
+IF $a OR $b = $c THEN PRINT "OK" ELSE PRINT "NO" ENDIF

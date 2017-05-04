@@ -1,0 +1,13 @@
+REM Tipi
+REM ----
+
+$x = "ciao"
+PRINT $x
+$x = TRUE
+PRINT $x
+$x = NOT $x
+PRINT $x
+$x = 1
+PRINT $x
+$x = $x + 1
+PRINT $x

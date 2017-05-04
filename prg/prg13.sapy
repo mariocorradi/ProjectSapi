@@ -1,0 +1,13 @@
+REM Fibonacci
+REM ---------
+
+DIM $a ( 10 )
+FOR $x = 1 TO 10 DO
+IF $x = 1 OR $x = 2
+   THEN $a ( $x ) = $x
+   ELSE $a ( $x ) = $a ( $x - 1 ) + $a ( $x - 2 )
+ENDIF : NEXT
+
+FOR $y = 1 TO 10 DO
+   PRINT $a ( $y )
+NEXT

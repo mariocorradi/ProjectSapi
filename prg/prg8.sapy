@@ -1,0 +1,10 @@
+REM Istruzione GOTO
+REM ---------------
+
+10 GOTO 40
+20 PRINT "NO"
+30 END
+40 PRINT "OK"
+50 GOTO 80
+PRINT "NO"
+80 PRINT "OK"

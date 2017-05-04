@@ -1,0 +1,13 @@
+REM Istruzione GOSUB
+REM ----------------
+
+10 $a = 1
+20 GOSUB 60
+30 $a = $a + 1
+40 IF $a = 7 THEN PRINT "OK" ENDIF
+50 END
+60 $a = $a * 2
+65 GOSUB 90
+70 RETURN
+90 $a = $a * 3
+RETURN

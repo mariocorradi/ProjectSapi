@@ -1,0 +1,10 @@
+REM Istruzione WHILE
+REM ----------------
+
+$y = 1
+WHILE $y <= 4096 DO $y = $y * 2 NEXT
+IF $y = 8192 THEN PRINT "OK" ENDIF
+
+$y = 1
+WHILE $y <= 1073741823 DO $y = $y * 2 NEXT
+IF $y = 1073741824 THEN PRINT "OK" ENDIF

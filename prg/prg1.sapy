@@ -1,0 +1,12 @@
+REM Aritmetica booleana basilare
+REM ----------------------------
+
+$a = TRUE
+$b = NOT $a
+$c = FALSE
+
+IF $b = $c THEN PRINT "OK" ENDIF
+IF $a <> $c THEN PRINT "OK" ENDIF
+IF $a OR $b THEN PRINT "OK" ENDIF
+IF NOT $b OR $c THEN PRINT "OK" ENDIF
+IF $a AND NOT $c THEN PRINT "OK" ENDIF

@@ -1,0 +1,12 @@
+REM Aritmetica intera
+REM -----------------
+
+PRINT 1 / 5
+PRINT 5 / 3
+PRINT ( 1 + 5 ) / 3
+PRINT ( 1 - ( - 5 ) ) / 3
+
+IF 5 / 3 = 1 THEN PRINT "OK" ENDIF
+IF ( - 1 % 10 = - 1 ) THEN PRINT "% a-la C" ENDIF
+IF ( - 1 % 10 = 9 ) THEN PRINT "% matematico" ENDIF
+IF ( - 1 % 10 <> - 1 ) AND ( - 1 % 10 <> 9 ) THEN PRINT "ERRORE %" ENDIF
